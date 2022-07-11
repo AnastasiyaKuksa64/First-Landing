@@ -1,0 +1,36 @@
+@import url(../css/awsome.css);
+@import url(../css/pricing.css);
+* {
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin: auto;
+  max-width: 1170px;
+  padding: 0 15px;
+}
+.title {
+  margin: 0 auto 34px;
+  width: 409px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #212121;
+  /* font-size: 36px; */
+}
+.line {
+  height: 2px;
+  width: 64px;
+  background-color: #e72424;
+  margin: 0 auto 34px;
+}
+.text {
+  margin-bottom: 68px;
+  text-align: center;
+  color: #86878b;
+  font-size: 14px;
+  width: 363px;
+  margin: 0 auto 68px;
+}
