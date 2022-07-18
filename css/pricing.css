@@ -4,13 +4,11 @@
   background-color: #f5f5f5;
 }
 .wrap__list {
+  margin: 0 -15px;
   display: flex;
   justify-content: space-evenly;
-  margin: 0 --15px;
-  flex-wrap: wrap;
 }
 .list {
-  flex-direction: column;
   width: 340px;
   margin: 0 15px 10px;
 }
