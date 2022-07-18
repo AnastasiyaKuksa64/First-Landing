@@ -10,7 +10,6 @@
   flex-wrap: wrap;
 }
 .list {
-  display: flex;
   flex-direction: column;
   width: 340px;
   margin: 0 15px 10px;
