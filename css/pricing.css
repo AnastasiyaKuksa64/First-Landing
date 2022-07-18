@@ -1,0 +1,59 @@
+.pricing {
+  width: 100%;
+  padding: 80px 0px;
+  background-color: #f5f5f5;
+}
+.wrap__list {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 --15px;
+  flex-wrap: wrap;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  width: 340px;
+  margin: 0 15px 10px;
+}
+.list__item--tarif {
+  background-color: #333333;
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 50px;
+  color: #ffffff;
+  border-bottom: 2px solid #f5f5f5;
+}
+.list__item--coast {
+  background-color: #333333;
+  width: 100%;
+  text-align: center;
+  font-size: 35px;
+  line-height: 100px;
+  font-family: "Raleway";
+  font-weight: 700;
+  color: #ffffff;
+  padding: 2px;
+  border-bottom: 2px solid #f5f5f5;
+}
+.list__item--free {
+  background-color: #333333;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  line-height: 50px;
+  font-weight: 600;
+  color: #ffffff80;
+  border-bottom: 4px solid #f5f5f5;
+}
+.list__item--space {
+  background-color: #ffffff;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 40px;
+  color: #86878b;
+  border-bottom: 4px solid #f5f5f5;
+}

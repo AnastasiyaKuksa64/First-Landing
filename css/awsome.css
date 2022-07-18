@@ -1,19 +1,23 @@
+.main {
+  padding: 80px 0;
+}
 .main__wrap {
-  margin-bottom: 96px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 0 --15px 0;
 }
 .card {
   width: 350px;
+  margin: 0 15px 10px;
 }
-
 .card__img {
   width: 70px;
   height: 70px;
   margin: 0 auto 30px;
   overflow: hidden;
   border-radius: 50%;
-  border: 1px solid #e72424;
+  border: 2px solid #e72424;
 }
 .card__img img {
   width: 100%;
@@ -25,6 +29,7 @@
   text-align: center;
   margin-bottom: 16px;
   color: #333333;
+  font-weight: 700;
   font-size: 20px;
   text-transform: capitalize;
 }
@@ -32,9 +37,12 @@
   color: #000000;
   text-align: center;
   font-size: 14px;
+  font-weight: 400;
   width: 350px;
   margin: auto;
 }
 span {
   text-transform: lowercase;
+  font-size: 20px;
+  font-weight: 700;
 }
