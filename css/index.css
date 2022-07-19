@@ -1,6 +1,7 @@
 @import url(../css/awsome.css);
 @import url(../css/pricing.css);
 @import url(../css/style.css);
+@import url(../css/reviews.css);
 * {
   padding: 0;
   text-decoration: none;
@@ -18,7 +19,6 @@ html {
 }
 .title {
   margin: 0 auto 34px;
-  width: 409px;
   text-align: center;
   text-transform: uppercase;
   color: #212121;

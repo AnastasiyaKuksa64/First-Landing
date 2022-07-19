@@ -6,7 +6,8 @@
 .wrap__list {
   margin: 0 -15px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 .list {
   width: 340px;
