@@ -6,12 +6,12 @@
 .wrap__list {
   margin: 0 -15px;
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 .list {
   width: 340px;
-  margin: 0 15px 10px;
+  margin: 0 15px;
 }
 .list__item--tarif {
   background-color: #333333;
