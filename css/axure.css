@@ -1,0 +1,66 @@
+.axure {
+  padding: 80px 0px;
+  background: url(../img/background\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* background-attachment: fixed; */
+  margin: auto;
+  position: relative;
+}
+.axure::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #0000008c;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.title__axure {
+  /* margin: 0 auto 34px; */
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: "Raleway";
+  font-size: 36px;
+  font-weight: 400;
+}
+.title__axure::after {
+  content: "";
+  width: 64px;
+  height: 2px;
+  background-color: #ffffff;
+  display: block;
+  margin: 34px auto 34px;
+}
+.text__axure {
+  text-align: center;
+  color: #ffffffcc;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0 auto 57px;
+  font-family: "Raleway";
+}
+.btn {
+  width: 135px;
+  height: 42px;
+  padding: 11px 20px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  transition: 1s;
+}
+.btn:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid rgb(83, 21, 21);
+  border-radius: 10%;
+  font-size: 18px;
+  padding: 25px 25px;
+}

@@ -22,6 +22,13 @@
   line-height: 50px;
   color: #ffffff;
   border-bottom: 2px solid #f5f5f5;
+  transition: 1s;
+}
+.list__item--tarif:hover {
+  cursor: pointer;
+  background-color: rgb(237, 91, 29);
+  padding: 15px;
+  font-size: 16px;
 }
 .list__item--cost {
   background-color: #333333;
@@ -34,6 +41,13 @@
   color: #ffffff;
   padding: 2px;
   border-bottom: 2px solid #f5f5f5;
+  transition: 1s;
+}
+.list__item--cost:hover {
+  cursor: pointer;
+  background-color: rgb(237, 91, 29);
+  padding: 35px;
+  font-size: 40px;
 }
 .list__item--free {
   background-color: #333333;
@@ -44,6 +58,14 @@
   font-weight: 600;
   color: #ffffff80;
   border-bottom: 4px solid #f5f5f5;
+  transition: 1s;
+}
+.list__item--free:hover {
+  cursor: pointer;
+  background-color: rgb(237, 91, 29);
+  color: aliceblue;
+  padding: 15px;
+  font-size: 16px;
 }
 .list__item--space {
   background-color: #ffffff;
@@ -54,4 +76,12 @@
   line-height: 40px;
   color: #86878b;
   border-bottom: 4px solid #f5f5f5;
+  transition: 1s;
+}
+.list__item--space:hover {
+  cursor: pointer;
+  background-color: rgb(237, 91, 29);
+  color: aliceblue;
+  padding: 15px;
+  font-size: 16px;
 }
