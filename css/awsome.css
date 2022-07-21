@@ -18,6 +18,14 @@
   overflow: hidden;
   border-radius: 50%;
   border: 2px solid #e72424;
+  transition: 1s;
+  cursor: pointer;
+}
+.card__img:hover {
+  width: 80px;
+  height: 80px;
+  background-color: rgb(200, 156, 140);
+  box-shadow: #333333;
 }
 .card__img img {
   width: 100%;
@@ -40,8 +48,14 @@
   font-weight: 400;
   width: 350px;
   margin: auto;
+  transition: 1s;
+  cursor: pointer;
 }
-span {
+.card__text p:hover {
+  font-size: 18px;
+  background-color: antiquewhite;
+}
+.card__text::after span {
   text-transform: lowercase;
   font-size: 20px;
   font-weight: 700;

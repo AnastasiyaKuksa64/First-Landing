@@ -26,6 +26,7 @@
   font-family: "Raleway";
   font-size: 36px;
   font-weight: 400;
+  order: 0;
 }
 .title__axure::after {
   content: "";
@@ -34,14 +35,18 @@
   background-color: #ffffff;
   display: block;
   margin: 34px auto 34px;
+  order: 1;
+  flex-grow: 0;
 }
 .text__axure {
   text-align: center;
-  color: #ffffffcc;
+  color: rgba(255, 255, 255, 0.8);
   font-size: 16px;
   font-weight: 400;
   margin: 0 auto 57px;
   font-family: "Raleway";
+  flex-grow: 0;
+  order: 2;
 }
 .btn {
   width: 135px;
@@ -50,6 +55,7 @@
   display: block;
   margin: 0 auto;
   text-align: center;
+  line-height: 20px;
   border: 1px solid #ffffff;
   color: #ffffff;
   font-size: 15px;
@@ -57,10 +63,16 @@
   transition: 1s;
 }
 .btn:hover {
-  background-color: white;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(231, 119, 28, 0.9140698515734419) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
   color: black;
   border: 1px solid rgb(83, 21, 21);
   border-radius: 10%;
-  font-size: 18px;
-  padding: 25px 25px;
+  padding: 14px 24px;
+  font-size: 17px;
 }
