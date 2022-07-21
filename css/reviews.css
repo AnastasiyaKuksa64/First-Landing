@@ -68,13 +68,6 @@
   transition: 1.5s;
   border: 5px solid skyblue;
   border-radius: 50px;
-  border-image: linear-gradient(
-    to right top,
-    rgb(255, 174, 0),
-    skyblue,
-    rgb(179, 255, 0)
-  );
-  border-image-slice: 1;
 }
 .reviews__img img {
   width: 100%;
