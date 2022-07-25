@@ -57,18 +57,26 @@
   text-align: center;
   line-height: 20px;
   border: 1px solid #ffffff;
+  border-radius: 30px;
   color: #ffffff;
   font-size: 15px;
   font-weight: 600;
   transition: 1s;
 }
 .btn:hover {
-  background: rgb(131, 58, 180);
-  background: linear-gradient(
-    90deg,
-    rgba(131, 58, 180, 1) 0%,
-    rgba(231, 119, 28, 0.9140698515734419) 50%,
-    rgba(252, 176, 69, 1) 100%
+  background-image: radial-gradient(
+    circle at -19.64% 62.28%,
+    #e7f189 0,
+    #eae77a 10%,
+    #eddc6b 20%,
+    #efd05b 30%,
+    #f1c34c 40%,
+    #f2b53c 50%,
+    #f3a62e 60%,
+    #f59723 70%,
+    #f7881e 80%,
+    #f9791d 90%,
+    #fc6921 100%
   );
   color: black;
   border: 1px solid rgb(83, 21, 21);

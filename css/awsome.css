@@ -22,8 +22,6 @@
   cursor: pointer;
 }
 .card__img:hover {
-  width: 80px;
-  height: 80px;
   background-color: rgb(200, 156, 140);
 }
 .card__img img {
@@ -51,7 +49,6 @@
   cursor: pointer;
 }
 .card__text p:hover {
-  font-size: 18px;
   background-color: antiquewhite;
 }
 .card__text::after span {
