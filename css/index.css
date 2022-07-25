@@ -13,14 +13,11 @@
   margin: 0;
   box-sizing: border-box;
 }
-<<<<<<< HEAD
 .awsome {
   width: 100%;
-  padding: 80px 0;
-=======
+  padding: 80px 0;}
 html {
   font-family: "Open Sans", "Raleway";
->>>>>>> axure
 }
 .container {
   margin: auto;
