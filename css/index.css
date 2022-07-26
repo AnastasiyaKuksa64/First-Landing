@@ -3,6 +3,10 @@
 @import url(../css/style.css);
 @import url(../css/reviews.css);
 @import url(../css/axure.css);
+@import url(../css/header.css);
+@import url(../css/media.css);
+@import url(../css/cdnjs.css);
+@import url(../css/footer.css);
 * {
   padding: 0;
   text-decoration: none;
