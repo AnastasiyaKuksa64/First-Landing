@@ -1,4 +1,4 @@
-.axit {
+.header {
   padding: 20px 0;
   width: 100%;
   background-color: rgba(0, 0, 0, 1);
@@ -7,7 +7,7 @@
   z-index: 33;
 }
 
-.axit__wrap {
+.header__wrap {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -15,24 +15,18 @@
 }
 .logo {
   margin: 0 15px;
+  font-size: 30px;
+  line-height: 35px;
+  text-transform: uppercase;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
 }
 .ax {
   color: rgba(255, 255, 255, 1);
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 30px;
-  line-height: 35px;
-  text-transform: uppercase;
 }
 .it {
   color: rgba(236, 121, 121, 1);
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 30px;
-  line-height: 35px;
-  text-transform: uppercase;
 }
 .navigation__list {
   display: flex;

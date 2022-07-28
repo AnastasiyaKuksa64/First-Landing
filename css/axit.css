@@ -1,0 +1,204 @@
+.axit {
+  padding: 100px 0;
+  background: url(../img/background-1\ 1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.axit__wrap {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 -15px;
+  flex-wrap: wrap;
+}
+.axit__modern__wrap {
+  margin: 0 15px;
+}
+.axit::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.45);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.axit__title {
+  width: 544px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 1);
+  font-family: "Raleway";
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 42px;
+}
+.axit__title::before {
+  content: "axit";
+  width: 129px;
+  height: 70px;
+  color: rgba(255, 255, 255, 1);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 70px;
+  display: block;
+  margin-bottom: 42px;
+}
+h1::after {
+  content: "";
+  width: 64px;
+  border: 1px solid rgba(255, 255, 255, 1);
+  display: block;
+  margin: 35px 0;
+}
+.axit__text {
+  width: 282px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "Raleway";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 39px;
+}
+.modern__btn {
+  width: 135px;
+  height: 42px;
+  color: rgba(255, 255, 255, 1);
+  font-family: "Open sans";
+  font-size: 15px;
+  font-weight: 600;
+  border: 1px solid rgba(255, 255, 255, 1);
+  background-color: transparent;
+  cursor: pointer;
+  transition: 1.2s;
+}
+.modern__btn:hover {
+  color: rgba(236, 121, 121, 1);
+  border: 1px solid rgba(236, 121, 121, 1);
+  border-radius: 10px;
+  transform: scale(1.2);
+}
+.free__wrap__content {
+  width: 370px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 8px;
+  margin: 0 15px;
+}
+.content {
+  width: 100%;
+  padding: 25px 59px 61px 59px;
+}
+.content__title {
+  color: rgba(51, 51, 51, 1);
+  text-transform: capitalize;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 45px;
+}
+.one__word {
+  color: rgba(236, 121, 121, 1);
+}
+.wrap__user__name {
+  margin-bottom: 19px;
+}
+.user__name {
+  display: block;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  align-items: center;
+  color: rgba(189, 189, 189, 1);
+}
+#userName {
+  border: none;
+  border-bottom: 1px solid rgba(189, 189, 189, 1);
+  width: 100%;
+  cursor: pointer;
+  transition: 1.2s;
+  outline: none;
+}
+#userName:hover {
+  background-color: rgba(118, 86, 102, 0.2);
+  border-radius: 4px;
+}
+.wrap__user__mail {
+  margin-bottom: 19px;
+}
+.user__email {
+  display: block;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  align-items: center;
+  color: rgba(189, 189, 189, 1);
+}
+#userEmail {
+  border: none;
+  border-bottom: 1px solid rgba(189, 189, 189, 1);
+  width: 100%;
+  cursor: pointer;
+  transition: 1.2s;
+  outline: none;
+}
+#userEmail:hover {
+  background-color: rgba(118, 86, 102, 0.2);
+  border-radius: 4px;
+}
+.user__password {
+  display: block;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  align-items: center;
+  color: rgba(189, 189, 189, 1);
+}
+#text__user__password {
+  border: none;
+  border-bottom: 1px solid rgba(189, 189, 189, 1);
+  width: 100%;
+  cursor: pointer;
+  transition: 1.2s;
+  outline: none;
+}
+#text__user__password:hover {
+  background-color: rgba(118, 86, 102, 0.2);
+  border-radius: 4px;
+}
+.axit__button {
+  background-color: rgba(236, 121, 121, 1);
+  border-radius: 0 0 8px 8px;
+  width: 100%;
+  height: 70px;
+  border: none;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.axit__button:hover {
+  background-color: rgb(211, 90, 90);
+  transform: scale(1.1);
+  border-radius: 8px;
+}
+.axit__button:active {
+  background-color: rgb(163, 62, 62);
+}
