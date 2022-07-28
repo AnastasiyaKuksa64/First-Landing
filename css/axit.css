@@ -87,8 +87,9 @@ h1::after {
 .free__wrap__content {
   width: 370px;
   background-color: rgba(255, 255, 255, 1);
-  border-radius: 8px;
   margin: 0 15px;
+}
+.free__content {
 }
 .content {
   width: 100%;
@@ -127,6 +128,7 @@ h1::after {
   cursor: pointer;
   transition: 1.2s;
   outline: none;
+  padding: 5px;
 }
 #userName:hover {
   background-color: rgba(118, 86, 102, 0.2);
@@ -151,6 +153,7 @@ h1::after {
   cursor: pointer;
   transition: 1.2s;
   outline: none;
+  padding: 5px;
 }
 #userEmail:hover {
   background-color: rgba(118, 86, 102, 0.2);
@@ -172,14 +175,13 @@ h1::after {
   cursor: pointer;
   transition: 1.2s;
   outline: none;
+  padding: 5px;
 }
 #text__user__password:hover {
   background-color: rgba(118, 86, 102, 0.2);
-  border-radius: 4px;
 }
 .axit__button {
   background-color: rgba(236, 121, 121, 1);
-  border-radius: 0 0 8px 8px;
   width: 100%;
   height: 70px;
   border: none;
@@ -197,7 +199,6 @@ h1::after {
 .axit__button:hover {
   background-color: rgb(211, 90, 90);
   transform: scale(1.1);
-  border-radius: 8px;
 }
 .axit__button:active {
   background-color: rgb(163, 62, 62);
