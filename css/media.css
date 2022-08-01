@@ -40,7 +40,7 @@
 .media__icons {
   width: 684px;
   font-size: 40px;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   display: flex;
   flex-wrap: wrap;
