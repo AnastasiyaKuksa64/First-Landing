@@ -100,8 +100,6 @@ h1::after {
   border-radius: 8px;
   overflow: hidden;
 }
-.free__content {
-}
 .content {
   width: 100%;
   padding: 25px 59px 61px 59px;
@@ -212,5 +210,5 @@ h1::after {
   transform: scale(1.1);
 }
 .axit__button:active {
-  background-color: rgb(163, 62, 62);
+  background-color: rgb(165, 68, 68);
 }
