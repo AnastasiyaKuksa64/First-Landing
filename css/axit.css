@@ -18,6 +18,7 @@
 }
 .axit__modern__wrap {
   margin: 0 15px;
+  width: 50%;
 }
 .axit::after {
   content: "";
@@ -29,7 +30,7 @@
   left: 0;
 }
 .axit__title {
-  width: 544px;
+  width: 100%;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 1);
   font-family: "Raleway";
@@ -85,7 +86,7 @@ h1::after {
   transform: scale(1.2);
 }
 .free__wrap__content {
-  width: 370px;
+  width: 30%;
   background-color: rgba(255, 255, 255, 1);
   margin: 0 15px;
 }

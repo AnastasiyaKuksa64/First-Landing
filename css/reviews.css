@@ -9,11 +9,11 @@
   margin: 0 -15px;
 }
 .reviews__card {
-  width: 297px;
+  width: 25%;
   margin: 0 15px;
 }
 .reviews__text {
-  width: 298px;
+  width: 100%;
   background-color: #e2e2e2;
   border-radius: 7px;
   padding: 8px 20px;
@@ -26,8 +26,6 @@
   transition: 1s;
   cursor: pointer;
   position: relative;
-  /* top: 0;
-  left: 0; */
   margin-bottom: 28px;
 }
 .reviews__text::after {
@@ -38,13 +36,13 @@
   border-top: 10px solid #e2e2e2;
   position: absolute;
   top: 100%;
-  left: 45px;
+  left: 40px;
   cursor: pointer;
   display: inline-block;
 }
 .reviews__description {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 .reviews__img {
   width: 70px;

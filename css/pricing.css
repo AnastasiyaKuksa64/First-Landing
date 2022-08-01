@@ -10,7 +10,7 @@
   flex-wrap: wrap;
 }
 .list {
-  width: 340px;
+  width: 30%;
   margin: 0 15px 0;
 }
 .list__item--tarif {
@@ -27,8 +27,7 @@
 .list__item--tarif:hover {
   cursor: pointer;
   background-color: rgb(237, 91, 29);
-  padding: 15px;
-  font-size: 22px;
+  transform: scale(1.1);
 }
 .list__item--cost {
   background-color: #333333;
@@ -46,8 +45,7 @@
 .list__item--cost:hover {
   cursor: pointer;
   background-color: rgb(237, 91, 29);
-  padding: 35px;
-  font-size: 40px;
+  transform: scale(1.1);
 }
 .list__item--free {
   background-color: #333333;
@@ -64,8 +62,7 @@
   cursor: pointer;
   background-color: rgb(237, 91, 29);
   color: aliceblue;
-  padding: 15px;
-  font-size: 16px;
+  transform: scale(1.1);
 }
 .list__item--space {
   background-color: #ffffff;
@@ -82,6 +79,5 @@
   cursor: pointer;
   background-color: rgb(237, 91, 29);
   color: aliceblue;
-  padding: 15px;
-  font-size: 16px;
+  transform: scale(1.1);
 }
