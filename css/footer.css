@@ -13,11 +13,11 @@
 .social__icons__list i {
   font-size: 30px;
   color: rgb(163, 158, 158);
-  transition: 3s;
+  transition: 0.5s;
 }
 .footer-facebook {
   color: #757373;
-  transition: 2s;
+  transition: 0.3s;
 }
 .footer-facebook:hover {
   color: #3b6dd9;
@@ -26,7 +26,7 @@
 }
 .footer-twitter {
   color: #757373;
-  transition: 2s;
+  transition: 0.3s;
 }
 .footer-twitter:hover {
   color: #00acee;
@@ -35,7 +35,7 @@
 }
 .footer-google {
   color: #757373;
-  transition: 2s;
+  transition: 0.3s;
 }
 .footer-google:hover {
   color: #d41818e6;
@@ -44,7 +44,7 @@
 }
 .footer-instagram {
   color: #757373;
-  transition: 2s;
+  transition: 0.3s;
 }
 .footer-instagram:hover {
   color: #7c144dad;
@@ -53,7 +53,7 @@
 }
 .footer-rss {
   color: #757373;
-  transition: 2s;
+  transition: 0.3s;
 }
 .footer-rss:hover {
   color: orange;
@@ -67,11 +67,13 @@
   width: 200px;
 }
 .fa-copyright {
+  font-family: "Open Sans";
   font-weight: 400;
   font-size: 12px;
   cursor: pointer;
-  transition: 1.2s;
+  transition: 0.2s;
   color: rgba(255, 255, 255, 0.5);
+  text-transform: capitalize;
 }
 .fa-copyright:hover {
   color: rgb(191, 80, 80);

@@ -48,10 +48,10 @@
   align-items: center;
   text-align: center;
   text-transform: capitalize;
-  transition: 1.2s;
+  transition: 0.3s;
   margin: 0 -15px;
 }
 .navigation__list--item:hover {
   border-bottom: 2px solid rgba(255, 255, 255, 0.7);
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
