@@ -1,0 +1,137 @@
+.contact {
+  padding: 80px 0;
+  width: 100%;
+}
+.wrap__contactUs {
+  margin: 0 -15px;
+}
+.contactUs__content {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 80px;
+}
+.left__content {
+  width: 478px;
+  margin: 0 15px;
+}
+.content__user__name {
+  margin-bottom: 35px;
+  width: 478px;
+}
+.contact__user__name {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: rgba(189, 189, 189, 1);
+  display: block;
+}
+#contactUserName {
+  border: none;
+  border-bottom: 1px solid #bdbdbd;
+  width: 100%;
+  outline: none;
+  transition: 1.2s;
+}
+#contactUserName:hover {
+  transform: scale(1.2);
+  color: rgba(222, 51, 51, 0.5);
+}
+.content__user__email {
+  margin-bottom: 40px;
+  width: 478px;
+}
+.contact__user__email {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: rgba(189, 189, 189, 1);
+  display: block;
+}
+#contactUserEmail {
+  border: none;
+  width: 100%;
+  border-bottom: 1px solid #bdbdbd;
+  outline: none;
+  transition: 1.2s;
+}
+#contactUserEmail:hover {
+  transform: scale(1.2);
+  color: rgba(222, 51, 51, 0.5);
+}
+.content__user__password {
+  width: 478px;
+}
+.contact__user__password {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: rgba(189, 189, 189, 1);
+  display: block;
+}
+#contact__user__password {
+  border: none;
+  border-bottom: 1px solid #bdbdbd;
+  width: 100%;
+  transition: 2s;
+  outline: none;
+}
+#contact__user__password:hover {
+  transform: scale(1.2);
+  color: rgba(222, 51, 51, 0.5);
+}
+.right__content {
+  margin: 0 15px;
+}
+.content__textarea {
+  width: 478px;
+  height: 180px;
+}
+.label__textarea {
+  display: block;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: rgba(189, 189, 189, 1);
+}
+#text__label__textarea {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-bottom: 1px solid #bdbdbd;
+  color: rgba(189, 189, 189, 1);
+  resize: none;
+  outline: none;
+  transition: 2s;
+}
+#text__label__textarea:hover {
+  transform: scale(1.2);
+  background-color: transparent;
+  color: rgba(222, 51, 51, 0.5);
+}
+.btn__contact {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(236, 121, 121, 1);
+  border: none;
+  width: 166px;
+  height: 42px;
+  display: block;
+  margin: auto;
+  cursor: pointer;
+  transition: 1.2s;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+}
+.btn__contact:hover {
+  transform: scale(1.2);
+  color: rgba(236, 121, 121, 1);
+  background-color: rgba(255, 255, 255, 1);
+  border: 2px dotted rgba(236, 121, 121, 1);
+}

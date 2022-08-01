@@ -1,0 +1,80 @@
+.social__medias {
+  padding: 30px 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 1);
+}
+.social__icons__list {
+  width: 317px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-bottom: 18px;
+}
+.social__icons__list i {
+  font-size: 30px;
+  color: rgb(163, 158, 158);
+  transition: 3s;
+}
+.footer-facebook {
+  color: #757373;
+  transition: 2s;
+}
+.footer-facebook:hover {
+  color: #3b6dd9;
+  text-shadow: 13px 13px 10px #3e3c3ca2;
+  transform: scale(1.5) translate(11%, 11%);
+}
+.footer-twitter {
+  color: #757373;
+  transition: 2s;
+}
+.footer-twitter:hover {
+  color: #00acee;
+  transform: scale(1.5) rotate(360deg);
+  text-shadow: 15px 15px 10px #5b5757a2;
+}
+.footer-google {
+  color: #757373;
+  transition: 2s;
+}
+.footer-google:hover {
+  color: #d41818e6;
+  text-shadow: 15px 15px 10px #454343a2;
+  transform: translate(21%, 21%) rotate(360deg);
+}
+.footer-instagram {
+  color: #757373;
+  transition: 2s;
+}
+.footer-instagram:hover {
+  color: #7c144dad;
+  transform: rotate(360deg) scale(1.5);
+  text-shadow: 15px 15px 10px #494646a2;
+}
+.footer-rss {
+  color: #757373;
+  transition: 2s;
+}
+.footer-rss:hover {
+  color: orange;
+  transform: scale(1.2);
+  text-shadow: 15px 15px 10px #5e5b5ba2;
+  transform: rotate(-90deg) scale(1.5);
+}
+.footer__discription__item {
+  margin: auto;
+  display: block;
+  width: 200px;
+}
+.fa-copyright {
+  font-weight: 400;
+  font-size: 12px;
+  cursor: pointer;
+  transition: 1.2s;
+  color: rgba(255, 255, 255, 0.5);
+}
+.fa-copyright:hover {
+  color: rgb(191, 80, 80);
+  transform: scale(1.2);
+  text-shadow: 15px 15px 10px #413d3d;
+}
