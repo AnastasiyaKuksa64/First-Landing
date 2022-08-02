@@ -39,7 +39,7 @@
   align-items: center;
 }
 .media__icons {
-  width: 684px;
+  width: 680px;
   font-size: 40px;
   justify-content: space-between;
   align-items: center;
@@ -92,4 +92,27 @@
   transform: scale(1.2);
   text-shadow: 15px 15px 10px #000000a2;
   transform: rotate(-40deg);
+}
+@media (max-width: 1105px) {
+  .media__wrap__title {
+    display: block;
+    margin: 0 auto 15px;
+  }
+  .media__title {
+    text-align: center;
+  }
+  .media__text {
+    font-size: 18px;
+    text-align: center;
+    line-height: 22px;
+  }
+  .navigation__media {
+    display: block;
+    margin: auto;
+  }
+}
+@media (max-width: 685px) {
+  .media__icons {
+    width: 450px;
+  }
 }

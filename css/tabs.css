@@ -1,6 +1,7 @@
 .tabs {
   padding: 125px 0;
   width: 100%;
+  /* height: 100vh; */
 }
 .wrap__tabs {
   display: flex;
@@ -79,9 +80,9 @@
 .tabs__content__item {
   display: flex;
   justify-content: space-between;
-  align-content: space-around;
+  /* align-content: space-around; */
   flex-wrap: wrap;
-  margin: 0 -15px;
+  margin: 0 auto -15px;
 }
 .tabs__content__item2 {
   display: none;
@@ -98,34 +99,34 @@
 .tabs__content__title {
   font-family: "Open Sans";
   font-weight: 700;
-  font-size: 20px;
-  line-height: 27px;
+  font-size: 1.25em;
+  line-height: 1.6875em;
   align-items: center;
   text-transform: uppercase;
-  margin-bottom: 58px;
+  margin-bottom: 3.625em;
 }
 .tabs__content__text {
-  width: 572px;
+  width: 500px;
   font-family: "Open Sans";
   font-weight: 400;
-  font-size: 14px;
-  line-height: 19px;
+  font-size: 0.875em;
+  line-height: 1.1875em;
   display: flex;
   align-items: center;
   text-transform: uppercase;
-  margin-bottom: 89px;
+  margin-bottom: 5.5625em;
   color: rgba(134, 135, 139, 1);
 }
 .btn__tabs__content {
-  width: 135px;
-  height: 42px;
+  width: 8.4375em;
+  height: 2.625em;
   background-color: rgba(236, 121, 121, 1);
   color: rgba(255, 255, 255, 1);
   border: none;
   font-family: "Open Sans";
   font-weight: 600;
-  font-size: 15px;
-  line-height: 20px;
+  font-size: 0.9375em;
+  line-height: 1.25em;
   text-align: center;
   transition: 0.7s;
   cursor: pointer;
@@ -138,4 +139,37 @@
   width: 320px;
   height: 253px;
   margin: 0 15px;
+}
+@media (max-width: 1095px) {
+  .tabs__btn {
+    display: flex;
+    flex-direction: row;
+  }
+  .tabs__btn__wrap {
+    margin: 0 auto 30px;
+  }
+}
+
+@media (max-width: 910px) {
+  .tabs__content__title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .tabs__content__text {
+    text-align: center;
+  }
+  .btn__tabs__content {
+    margin: auto;
+    display: block;
+  }
+  .tabs {
+    padding: 30px 0;
+  }
+  .content__item {
+    margin: 0 auto 38px;
+  }
+  .content__img {
+    display: block;
+    margin: auto;
+  }
 }

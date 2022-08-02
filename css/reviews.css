@@ -81,3 +81,12 @@
   align-items: center;
   text-transform: capitalize;
 }
+@media (max-width: 660px) {
+  .reviews__card {
+    width: 40%;
+  }
+  .wrap__reviews {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}

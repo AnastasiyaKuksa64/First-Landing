@@ -57,3 +57,8 @@
   font-size: 20px;
   font-weight: 700;
 }
+@media (max-width: 609px) {
+  .card {
+    width: 40%;
+  }
+}
