@@ -90,3 +90,9 @@
     justify-content: space-evenly;
   }
 }
+@media (max-width: 460px) {
+  .reviews__img {
+    width: 55px;
+    height: 55px;
+  }
+}

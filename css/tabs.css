@@ -146,7 +146,11 @@
     flex-direction: row;
   }
   .tabs__btn__wrap {
-    margin: 0 auto 30px;
+    margin: 0 auto 60px;
+  }
+  .tabs__content {
+    display: block;
+    margin: auto;
   }
 }
 
@@ -171,5 +175,10 @@
   .content__img {
     display: block;
     margin: auto;
+  }
+}
+@media (max-width: 535px) {
+  .tabs__content__text {
+    width: 350px;
   }
 }

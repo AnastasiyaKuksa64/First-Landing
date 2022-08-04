@@ -67,3 +67,8 @@
     margin: auto;
   }
 }
+@media (max-width: 535px) {
+  .navigation__list {
+    width: 350px;
+  }
+}

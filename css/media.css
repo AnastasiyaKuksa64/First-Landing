@@ -116,3 +116,8 @@
     width: 450px;
   }
 }
+@media (max-width: 535px) {
+  .media__icons {
+    width: 300px;
+  }
+}

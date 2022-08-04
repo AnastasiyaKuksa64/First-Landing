@@ -86,3 +86,19 @@
     width: 40%;
   }
 }
+@media (max-width: 500px) {
+  .list {
+    width: 30%;
+  }
+  .list__item--cost {
+    font-size: 18px;
+    line-height: 40px;
+  }
+  .list__item--free {
+    line-height: 40px;
+  }
+  .list__item--tarif {
+    font-size: 16px;
+    line-height: 40px;
+  }
+}
